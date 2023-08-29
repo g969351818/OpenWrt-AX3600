@@ -15,3 +15,4 @@ sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 sed -i 's/192.168/10.0/g' package/base-files/files/bin/config_generate
 git clone  https://github.com/davinyue/luci-theme-edge.git package/luci-theme-edge
 git clone https://github.com/rufengsuixing/luci-app-syncdial package/luci-app-syncdial
+git clone  https://github.com/mchome/luci-app-vlmcsd.git package/luci-app-vlmcsd
